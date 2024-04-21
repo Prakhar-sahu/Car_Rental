@@ -1,0 +1,74 @@
+.bookcars-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bookcars-header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.bookcars-header h1 {
+    margin: 0;
+}
+
+.bookcars-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgba(224, 210, 210, 0.5);
+    margin-left: 20px;
+    color: white;
+}
+
+.bookcars-form-label {
+    margin-bottom: 1rem;
+}
+
+.bookcars-form-input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.bookcars-search-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.bookcars-search-btn:hover {
+    background-color: #0056b3;
+}
+
+.bookcars-footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.bookcars-footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.bookcars-footer a:hover {
+    text-decoration: underline;
+}

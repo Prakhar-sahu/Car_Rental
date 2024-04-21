@@ -1,0 +1,70 @@
+/* checkin-style.css */
+
+body {
+    background-image: url('https://bgr.com/wp-content/uploads/2018/11/the-office-finale.jpg?quality=70&strip=all');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #000303; /* Aqua blue border */
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 35px;
+    background-color: rgba(255, 255, 255, 0.205); /* Light white background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .center h2 {
+    color: #646b72; /* Dark grey text */
+  }
+  
+  .form_label {
+    width: 30%;
+    margin: 10px;
+    text-align: right;
+    color: #00070edc; /* Dark grey text */
+    font-weight: bold;
+  }
+  
+  .form_input {
+    width: 50%;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #ced4da; /* Light grey border */
+  }
+  
+  button {
+    background-color: #007bff; /* Blue button */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .bill {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #17a2b8; /* Aqua blue border */
+    background-color: #f1f8ff; /* Light blue background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .bill h3 {
+    color: #343a40; /* Dark grey text */
+  }
+  
+  .bill p {
+    color: #6c757d; /* Medium grey text */
+  }
+  
