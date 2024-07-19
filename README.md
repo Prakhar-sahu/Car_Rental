@@ -28,7 +28,7 @@ To get started with the Car Rental System, follow these steps:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/car-rental-system.git
+    git clone https://github.com/Prakhar-sahu/Car_Rental.git
     ```
 2. **Navigate to the Backend Directory**:
     ```bash
